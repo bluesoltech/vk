@@ -40,6 +40,7 @@ function Main() {
         <div className="absolute spinLoader w-full h-full rounded-[50%] border-t-[5px] rotate-[45deg] z-2"></div>
         <div className="relative w-[50%] h-[50%]">
           <img
+            loading="lazy"
             className="w-full h-full rounded-[50%] rotate-[-45deg] object-contain bg-gradient-to-t to-[#FDC898] from-[#B517FF]"
             src="/assets/Sir.png"
           ></img>

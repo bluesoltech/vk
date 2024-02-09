@@ -1,13 +1,19 @@
 import React from "react";
+import "../components/Hero/Main.css";
 
 function HomeM() {
   return (
     <section className="relative snap-start pt-[80px]">
       <div className="flex flex-col p-5 gap-3 items-center">
-        <img
-          className="w-[150px] h-[150px] rounded-[50%] object-contain bg-gradient-to-t to-[#FDC898] from-[#B517FF]"
-          src="/assets/Sir.png"
-        ></img>
+        <div className="relative w-[200px] h-[200px] flex items-center justify-center">
+          <div className="absolute spinLoader w-full h-full rounded-[50%] border-t-[5px] rotate-[45deg] z-2"></div>
+          <div className="absolute w-full h-full rounded-[50%] border-t-[1px] border-r-[1px] rotate-[45deg] z-2"></div>
+          <img
+            loading="lazy"
+            className="w-[150px] h-[150px] rounded-[50%] object-contain bg-gradient-to-t to-[#FDC898] from-[#B517FF]"
+            src="/assets/Sir.png"
+          ></img>
+        </div>
         <div className="">
           <h1 className="text-3xl text-center text-[#ffffff] font-bold uppercase">
             Never Give Up <br /> Keep Running
@@ -19,6 +25,7 @@ function HomeM() {
       </div>
       <div className="flex flex-col p-5">
         <img
+          loading="lazy"
           className=" max-w-full h-[200px] object-cover object-top rounded-3xl"
           src="/assets/Asset1.png"
         />
@@ -41,20 +48,20 @@ function HomeM() {
       </div>
       <div className="flex flex-col p-5 gap-2">
         <h1 className="text-white text-5xl">Looking for a Race Director?</h1>
-        <p className="text-gray-500 text-sm text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-          quo, quae eius minus eligendi qui dolorem animi delectus, ad dolor
-          voluptas excepturi ducimus eum vero. Accusamus mollitia tenetur quasi
-          corporis autem soluta libero laboriosam adipisci sequi sint ratione
-          nostrum ea hic, quaerat vero? Qui quos ad atque, similique numquam
-          aut?
+        <p className="text-gray-500 text-sm text-justify mt-2">
+          who not only understands the intricacies of endurance sports but also
+          possesses the organizational prowess to execute flawless events? Look
+          no further than Vishnu Kamaliya. With his extensive background in both
+          participating in and managing events, Vishnu brings a unique
+          perspective that ensures every race is not just a competition, but an
+          unforgettable experience for all involved. Whether you're a seasoned
+          athlete seeking a new challenge or an event organizer aiming to
+          elevate your race to new heights, Vishnu Kamaliya is the partner you
+          need to make it happen.
         </p>
         <div className="flex justify-end mb-5">
           <button className="text-lg py-1 px-3 bg-blue-500 text-white rounded-xl">
-            <a
-              href="/Profile
-            "
-            >
+            <a href="/Profile.pdf" download="Vishnu.pdf">
               Get Profile
             </a>
           </button>

@@ -46,6 +46,7 @@ function WorkSheet({ refer }) {
     >
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/Asset1.png"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover rounded-xl"
           alt=""
@@ -59,6 +60,7 @@ function WorkSheet({ refer }) {
       </div>
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/Asset2.png"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover order-last rounded-xl"
           alt=""
@@ -73,6 +75,7 @@ function WorkSheet({ refer }) {
       </div>
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/Asset3.png"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover rounded-xl"
           alt=""
@@ -88,6 +91,7 @@ function WorkSheet({ refer }) {
       </div>
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/Asset5.png"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover order-last rounded-xl"
           alt=""
@@ -106,6 +110,7 @@ function WorkSheet({ refer }) {
       </div>
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/Asset6.png"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover object-top rounded-xl"
           alt=""
@@ -121,6 +126,7 @@ function WorkSheet({ refer }) {
       </div>
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/Asset7.png"
           className="md:w-[300px] md:h-[200px] lg:w-[400px] lg:h-[300px] object-cover order-last rounded-xl"
           alt=""
@@ -133,6 +139,7 @@ function WorkSheet({ refer }) {
       </div>
       <div className="flex gap-10 w-full">
         <img
+          loading="lazy"
           src="/assets/IMG_4223.png"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover rounded-xl"
           alt=""

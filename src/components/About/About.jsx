@@ -6,6 +6,7 @@ function About() {
       <div className="flex gap-[100px] justify-around">
         <div className="w-full flex justify-end rounded-3xl">
           <img
+            loading="lazy"
             className=" max-w-full h-auto object-contain rounded-3xl"
             src="/assets/Asset1.png"
           ></img>
@@ -33,11 +34,14 @@ function About() {
         Looking for a Race Director?
       </h1>
       <p className="text-gray-500 text-lg text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-        quo, quae eius minus eligendi qui dolorem animi delectus, ad dolor
-        voluptas excepturi ducimus eum vero. Accusamus mollitia tenetur quasi
-        corporis autem soluta libero laboriosam adipisci sequi sint ratione
-        nostrum ea hic, quaerat vero? Qui quos ad atque, similique numquam aut?{" "}
+        who not only understands the intricacies of endurance sports but also
+        possesses the organizational prowess to execute flawless events? Look no
+        further than Vishnu Kamaliya. With his extensive background in both
+        participating in and managing events, Vishnu brings a unique perspective
+        that ensures every race is not just a competition, but an unforgettable
+        experience for all involved. Whether you're a seasoned athlete seeking a
+        new challenge or an event organizer aiming to elevate your race to new
+        heights, Vishnu Kamaliya is the partner you need to make it happen.
       </p>
       <button className="bg-blue-500 text-white py-1 px-4 text-xl rounded-xl self-end">
         <a href="/Profile.pdf" download="Vishnu.pdf">

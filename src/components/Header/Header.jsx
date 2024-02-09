@@ -7,11 +7,17 @@ function Header() {
     if (location.pathname == "/") setActive("/");
     if (location.pathname == "/work") setActive("/work");
   }, [location]);
-  const showNav = () => {};
+
   return (
     <div className="w-full sticky top-0 h-[80px] flex justify-between border-b-[1px] border-gray-700 z-[999] bg-[#0F0E0E]">
       <div className="w-full h-full pl-2">
-        <img src="/assets/logo.png" className="h-full w-auto"></img>
+        <Link to="/">
+          <img
+            loading="lazy"
+            src="/assets/logo.png"
+            className="h-full w-auto"
+          ></img>
+        </Link>
       </div>
       <div className="flex justify-end items-center gap-4 text-gray-500 text-xl md:opacity-0">
         <Link to="/">

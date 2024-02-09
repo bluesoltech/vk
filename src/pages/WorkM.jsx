@@ -7,6 +7,7 @@ function WorkM() {
       <section className="snap-start pt-[100px] sm grid grid-cols-1 min-[400px]:grid-cols-2">
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset1.png"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
@@ -21,6 +22,7 @@ function WorkM() {
         </div>
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset2.png"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
@@ -37,6 +39,7 @@ function WorkM() {
         </div>
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset3.png"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
@@ -52,6 +55,7 @@ function WorkM() {
         </div>
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset5.png"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
@@ -72,6 +76,7 @@ function WorkM() {
         </div>
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset6.png"
             className="w-full h-[200px] object-cover object-top rounded-xl"
             alt=""
@@ -87,6 +92,7 @@ function WorkM() {
         </div>
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset7.png"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
@@ -102,6 +108,7 @@ function WorkM() {
         </div>
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
+            loading="lazy"
             src="/assets/Asset1.png"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""

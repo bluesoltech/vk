@@ -8,18 +8,19 @@ function Main() {
         <div className="absolute spinLoader w-full h-full rounded-[50%] border-t-[5px] rotate-[45deg] z-2"></div>
         <div className="relative w-[50%] h-[50%]">
           <img
+            loading="lazy"
             className="w-full h-full rounded-[50%] rotate-[-45deg] object-contain bg-gradient-to-t to-[#FDC898] from-[#B517FF]"
             src="/assets/Sir.png"
           ></img>
           <div className="absolute top-0 w-full h-full rounded-[50%] rotate-[-45deg] z-3 bg-gradient-to-t to-[#FDC898] from-[#B517FF] opacity-20"></div>
         </div>
         <ul className="">
-          <li className="top-0 absolute rotate-[-45deg] md:top-[22%] md:left-[50%] lg:top-[20%] lg:left-[55%] xl:top-[25%] xl:left-[65%]">
+          <li className="top-0 absolute rotate-[-45deg] md:top-[8%] md:left-[50%] lg:top-[10%] lg:left-[55%] xl:top-[15%] xl:left-[65%]">
             <Link to="/" className="heading absolute uppercase text-white ">
               Home
             </Link>
           </li>
-          <li className="active right-0 absolute rotate-[-45deg] md:top-[20%] md:left-[58%] lg:top-[20%] lg:left-[63%] xl:top-[25%] xl:left-[71%]">
+          <li className="active right-0 absolute rotate-[-45deg] md:top-[20%] md:left-[65%] lg:top-[15%] lg:left-[63%] xl:top-[20%] xl:left-[73%]">
             <div className="heading cursor-pointer  absolute uppercase text-white ">
               Work
             </div>
