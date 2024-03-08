@@ -15,7 +15,7 @@ const ScrollToTop = () => {
     // Re-enable scroll snapping after a short delay
     setTimeout(function () {
       document.documentElement.style.scrollSnapType = "y mandatory"; // Or whatever your original value was
-    }, 500);
+    }, 1000);
   }, [pathname]);
 };
 

@@ -25,7 +25,7 @@ function Home() {
       initial="hidden"
       animate="visible"
       exit="exit"
-      className="pt-[80px]"
+      className=""
     >
       <Hero />
       <About />

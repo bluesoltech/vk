@@ -19,7 +19,7 @@ function Work() {
         ref={targetRef}
         variants={containerVariants}
         exit="exit"
-        className="relative h-[300vh] snap-start oveflow-x-hidden"
+        className="relative h-[300vh] oveflow-x-hidden"
       >
         <Hero refer={targetRef} />
       </motion.section>

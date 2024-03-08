@@ -3,7 +3,7 @@ import "../components/Hero/Main.css";
 
 function HomeM() {
   return (
-    <section className="relative snap-start pt-[80px]">
+    <section className="relative ">
       <div className="flex flex-col p-5 gap-3 items-center">
         <div className="relative w-[200px] h-[200px] flex items-center justify-center">
           <div className="absolute spinLoader w-full h-full rounded-[50%] border-t-[5px] rotate-[45deg] z-2"></div>

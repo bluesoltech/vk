@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="md:w-[700px] lg:w-[900px] h-screen snap-start flex flex-col items-center justify-center gap-10 pt-[80px] mx-auto">
+    <section className="md:w-[700px] lg:w-[900px] h-screen flex flex-col items-center justify-center gap-10 pt-[80px] mx-auto">
       <div className="flex gap-[100px] justify-around">
         <div className="w-full flex justify-end rounded-3xl">
           <img
@@ -24,7 +24,7 @@ function About() {
             <p className="text-gray-500 w-[90%] text-justify">
               Vishnu Kamaliya is ultra-marathoner. Provides a marvelious lens to
               the sport. Participated in more than 18+ marathon events. Also
-              organized, managed and directed more than 25+ Government and Pvt.
+              organized, managed and directed more than 26+ Government and Pvt.
               Events of Sports and Marathon
             </p>
           </div>

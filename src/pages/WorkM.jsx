@@ -4,11 +4,11 @@ import Contact from "../components/Contact/Contact";
 function WorkM() {
   return (
     <div className="">
-      <section className="snap-start pt-[100px] sm grid grid-cols-1 min-[400px]:grid-cols-2">
+      <section className="  sm grid grid-cols-1 min-[400px]:grid-cols-2">
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset1.png"
+            src="/assets/VK Photos/VKPhotos03.webp"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
           />
@@ -23,7 +23,7 @@ function WorkM() {
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset2.png"
+            src="/assets/VK Photos/VK Photos-02.webp"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
           />
@@ -40,7 +40,7 @@ function WorkM() {
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset3.png"
+            src="/assets/VK Photos/VK Photos-06.webp"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
           />
@@ -56,7 +56,7 @@ function WorkM() {
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset5.png"
+            src="/assets/VK Photos/VK Photos-04.webp"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
           />
@@ -77,7 +77,7 @@ function WorkM() {
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset6.png"
+            src="/assets/VK Photos/VK Photos-01.webp"
             className="w-full h-[200px] object-cover object-top rounded-xl"
             alt=""
           />
@@ -93,14 +93,12 @@ function WorkM() {
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset7.png"
+            src="/assets/VK Photos/VK Photos-05.webp"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
           />
           <div className="w-full flex justify-between items-center">
-            <h1 className="text-4xl text-white min-[400px]:text-2xl order-last">
-              2017
-            </h1>
+            <h1 className="text-4xl text-white min-[400px]:text-2xl order-last"></h1>
             <p className="text-start uppercase text-white text-2xl">
               Ultra <br /> <span className="text-[#fff500]">Marathoner</span>
             </p>
@@ -109,7 +107,7 @@ function WorkM() {
         <div className="flex flex-col gap-4 p-5 w-full">
           <img
             loading="lazy"
-            src="/assets/Asset1.png"
+            src="/assets/VK Photos/VK Photos-07.webp"
             className="w-full h-[200px] object-cover rounded-xl"
             alt=""
           />

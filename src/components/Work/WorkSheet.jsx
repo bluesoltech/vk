@@ -47,7 +47,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/Asset1.png"
+          src="/assets/VK Photos/VKPhotos03.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover rounded-xl"
           alt=""
         />
@@ -61,7 +61,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/Asset2.png"
+          src="/assets/VK Photos/VK Photos-02.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover order-last rounded-xl"
           alt=""
         />
@@ -76,7 +76,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/Asset3.png"
+          src="/assets/VK Photos/VK Photos-06.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover rounded-xl"
           alt=""
         />
@@ -92,7 +92,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/Asset5.png"
+          src="/assets/VK Photos/VK Photos-04.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover order-last rounded-xl"
           alt=""
         />
@@ -111,7 +111,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/Asset6.png"
+          src="/assets/VK Photos/VK Photos-01.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover object-top rounded-xl"
           alt=""
         />
@@ -127,7 +127,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/Asset7.png"
+          src="/assets/VK Photos/VK Photos-05.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[400px] lg:h-[300px] object-cover order-last rounded-xl"
           alt=""
         />
@@ -140,7 +140,7 @@ function WorkSheet({ refer }) {
       <div className="flex gap-10 w-full">
         <img
           loading="lazy"
-          src="/assets/IMG_4223.png"
+          src="/assets/VK Photos/VK Photos-07.webp"
           className="md:w-[300px] md:h-[200px] lg:w-[500px] lg:h-[300px] object-cover rounded-xl"
           alt=""
         />

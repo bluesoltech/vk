@@ -9,7 +9,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <section className="w-full h-[250px] border-t-[1px] snap-start">
+    <section className="w-full h-[250px] border-t-[1px] ">
       <div className="h-[90%] flex items-center justify-between text-white p-10">
         <div className="flex items-center gap-4">
           <img
@@ -18,9 +18,12 @@ function Footer() {
             className="w-[100px] h-[100px] rounded-[50%] object-cover"
             alt=""
           />
-          <div className="">
-            <h1 className="text-xl">Vishnu Kamaliya</h1>
-            <p className="text-gray-500">CEO Blue Soltech</p>
+          <div className="flex flex-col justify-between">
+            <div className="mb-5">
+              <h1 className="text-xl">Vishnu Kamaliya</h1>
+              <p className="text-gray-500">CEO Blue Soltech</p>
+            </div>
+            <p className="text-sm text-gray-500">vishnu@bluesoltech.in</p>
           </div>
         </div>
 
